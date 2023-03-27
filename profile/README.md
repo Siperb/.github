@@ -22,26 +22,26 @@ It is the objective of the mobile apps, to provide all the necessary (natively c
 
 This will include:
 
-## Network monitoring
+### Network monitoring
 
 The mobile app will be responsible for monitoring the sate of connectivity for the device, and inform the webview of possible changes so that it can register or re-register.
 
-## Rotation Handling
+### Rotation Handling
 
 Unlike a desktop computer, a mobile device can be easily rotated in your hand. They are also (often) fitted with a gyroscope, that allows the application to know the rotation of the device, and therefor the screen. This is important because the screen is typically not square, and has a big impact of the layout of elements on the page. The Application so handle the rotation and limit the screen drawing to portrait for the majority of the time, unless the user has selected a Fullscreen video conference. 
 
-## Proximity Handling
+### Proximity Handling
 
 Unlike a desktop computer, a mobile device can be easily moved around, and especially when the user moves the device to their ear. This action should automatically set the device to a suitable sound output, and then moving the device away from your ear should again change the device back to an appropriate output and should level.
 
-## Audio Device Handling (including bluetooth)
+### Audio Device Handling (including bluetooth)
 
-## Ring Tones and Personalisation
+### Ring Tones and Personalisation
 
-## Local Storage and Sync State Handling
+### Local Storage and Sync State Handling
 
-## Contact Intergration
+### Contact Intergration
 
-## Camera & Microphone permission
+### Camera & Microphone permission
 
-## Incoming Call Notification
+### Incoming Call Notification
