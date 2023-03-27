@@ -14,14 +14,34 @@ You are also not limited to the number of devices you can register your client e
 
 ## Mobile App Objectives
 
-You may be wondering how WebRTC and Mobile work together? The primary concept of this project is to biuld a WebView that can contain the HTML and JavaScript nessesary to perform any of the taks nessesary for the Browser/WebRTC Phone to work. 
+You may be wondering how WebRTC and Mobile work together? The primary concept of this project is to build a WebView that can contain the HTML and JavaScript necessary to perform any of the task necessary for the Browser/WebRTC Phone to work. 
 
-Specail attention is applied to features that are typical of a mobile device. For instance, unlike a Desktop computer, a mobile device is used for (many) shorter periods during a typical day. Each time the screen is on, or the device is in use, its making use of the battery. It is of utmost importants to keep the battery use to a minimum. Mobile opperating systems go to extream lenghts to perseve battery power especially if the app is not in the forground, or actually being used. You can see this by simply refaining from scrolling, and touching the screen for a few seconds - you should see the screen dim, or turn off. A few seconds after that, all network activity is shut down (except push notification communications).
+Special attention is applied to features that are typical of a mobile device. For instance, unlike a Desktop computer, a mobile device is used for (many) shorter periods during a typical day. Each time the screen is on, or the device is in use, its making use of the battery. It is of utmost important to keep the battery use to a minimum. Mobile operating systems go to extreme lengths to preserve battery power especially if the app is not in the foreground, or actually being used. You can see this by simply refraining from scrolling, and touching the screen for a few seconds - you should see the screen dim, or turn off. A few seconds after that, all network activity is shut down (except push notification communications).
 
-It is the objectibve of the mobile apps, to provide all the nessesary (nativly coded) functionaliy out side of core calling functionaliy. 
+It is the objective of the mobile apps, to provide all the necessary (natively coded) functionality outside of core calling functionality. 
 
-This will iclude:
+This will include:
 
 ## Network monitoring
 
 The mobile app will be responsible for monitoring the sate of connectivity for the device, and inform the webview of possible changes so that it can register or re-register.
+
+## Rotation Handling
+
+Unlike a desktop computer, a mobile device can be easily rotated in your hand. They are also (often) fitted with a gyroscope, that allows the application to know the rotation of the device, and therefor the screen. This is important because the screen is typically not square, and has a big impact of the layout of elements on the page. The Application so handle the rotation and limit the screen drawing to portrait for the majority of the time, unless the user has selected a Fullscreen video conference. 
+
+## Proximity Handling
+
+Unlike a desktop computer, a mobile device can be easily moved around, and especially when the user moves the device to their ear. This action should automatically set the device to a suitable sound output, and then moving the device away from your ear should again change the device back to an appropriate output and should level.
+
+## Audio Device Handling (including bluetooth)
+
+## Ring Tones and Personalisation
+
+## Local Storage and Sync State Handling
+
+## Contact Intergration
+
+## Camera & Microphone permission
+
+## Incoming Call Notification
