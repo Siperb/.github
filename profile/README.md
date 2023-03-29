@@ -36,12 +36,24 @@ Unlike a desktop computer, a mobile device can be easily moved around, and espec
 
 ### Audio Device Handling (including bluetooth)
 
-### Ring Tones and Personalisation
+The mobile application should take on the role of audio device manager, allowing the user to plug in a headset or microphone, and have it automatically be avaialbe to use (or use automatiacly if the preference is set). These divcies must not be limited to plugin devices, they should unclude Bluetooth, and car audio devices. 
+
+### Ring Tones and Personal Settings
+
+The user should be presented with a list of system ring tones, allowing the device to audibly ring much like a typical GSM call. The user must be able to select the ring tone, and set other personalisation specific to this device. These settings should be stored locally on the device. These settings are different to the provisioned settings that may be common to all instances of the users account. 
 
 ### Local Storage and Sync State Handling
 
-### Contact Intergration
+Should the user select the paid-for options, all data should be synced to their online Control Panel. Embedded JavaScript will perform these tasks, however the state of sync and progress of this should be reported easily to the user.
+
+### Contact Integration
+
+Most of the time, users save their contacts to their mobile phones, and/or make use of services like iCloud, Google etc for maintaining contacts. In most cases the mobile devices is a central location for all the users contacts (synced or static), this provides an opportunity for the mobile app to make use of these contacts. The mobile app would have its own "roster" of contacts with full history, but would still require a user to copy over (or reference) a contact from the users contacts. (This is the same as WhatsApp). The mobile app is required to perform the task of handling reference between stored contacts in the users phone, and contacts on the mobile app.
 
 ### Camera & Microphone permission
 
+It should be the responsibility of the mobile app to obtain the necessary permission to use the camera and microphone. The actual UI for the request can be done in the Browser UI, but the request should be handled in native code.
+
 ### Incoming Call Notification
+
+For both Android and iOS, incoming call notifications should be handled from the push notifications service. If the user select the option, a push notifications will be sent to the device prior to each incoming call. It will be the responsibility of the mobile app to accept this push notification, wake the application, register the extension, and bring the application to the foreground. Once the application is registered, the call will be sent to the device, and a regular inbound call flow can continue. It should be noted that at this point, it may be possible that the users phone is still locked, and/or the application is not the front-most, so this may present permission difficulties. Android and iOS have different approaches to this function, and user privacy would be a consideration. A best possible solution - similar to the regular GSM call, or like WhatsApp, should be reached.
