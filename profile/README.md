@@ -36,7 +36,7 @@ Unlike a desktop computer, a mobile device can be easily moved around, and espec
 
 ### Missed Event Badge
 
-For mobile apps, the app icon normally supports some sort of missed event notification. This could be a call, or a messggae. On reading the messgae, the notification can be reduced or removed.
+For mobile apps, the app icon normally supports some sort of missed event notification. This could be a call, or any message. On reading the message, the notification can be reduced or removed.
 
 ### Audio Device Handling (including bluetooth)
 
