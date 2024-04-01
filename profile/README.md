@@ -34,6 +34,10 @@ Unlike a desktop computer, a mobile device can be easily rotated in your hand. T
 
 Unlike a desktop computer, a mobile device can be easily moved around, and especially when the user moves the device to their ear. This action should automatically set the device to a suitable sound output, and then moving the device away from your ear should again change the device back to an appropriate output and should level.
 
+### Missed Event Badge
+
+For mobile apps, the app icon normally supports some sort of missed event notification. This could be a call, or a messggae. On reading the messgae, the notification can be reduced or removed.
+
 ### Audio Device Handling (including bluetooth)
 
 The mobile application should take on the role of audio device manager, allowing the user to plug in a headset or microphone, and have it automatically be avaialbe to use (or use automatiacly if the preference is set). These divcies must not be limited to plugin devices, they should unclude Bluetooth, and car audio devices. 
