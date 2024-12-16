@@ -1,13 +1,15 @@
 # SIPERB
 
-Siperb sits in the cloud between your existing PBX and your users, to provide them with a state-of-the-art WebRTC enabled client endpoint (UAC).
+Siperb Services sits in the cloud between your existing PBX and your users, to provide them with a state-of-the-art SIP-based [Softphone](https://www.siperb.com/kb/article/softphone/) powered by [WebRTC](https://www.siperb.com/kb/article/what-is-webrtc/).
 
-There are various ways to connect with us if you want, or you don't even need to connect with us at all. 
+Siperb's [SIP Proxy](https://www.siperb.com/kb/article/webrtc-to-sip-proxy/) then provides the nessesary routing to connect the [Web Application or Mobile Application](https://www.siperb.com/kb/article/siperb-webrtc-client-web-tablet-and-mobile/) to your PBX. Inbound calls are notified via Push for both mobile and web. Outbound calls are routed via connections, to your own PBX like Asteriks, FreeSWITCH or any SIP based IP PBX.
+
+There are various ways to [connect](https://www.siperb.com/kb/topics/connections/) with us if you want, or you don't even need to connect with us at all. 
 It's up to you. You are welcome to use our system without connections for free, but then you must make sure that your PBX is fully WebRTC capable.
 
 We can connect to your PBX (UAS) via our outbound registrations, or your PBX (UAS) can connect to us via our inbound registrations. 
 This links us with you. You are not limited by these connections. 
-You can make as many as you want. 
+You can make as many connections as you want. 
 You will probably want to make one per extension on your PBX that you want to use with WebRTC. 
 One of these connections can also be a TISP, like Twillio Elastic SIP Trunking. 
 You are also not limited to the number of devices you can register your client endpoint (UAC) with.
