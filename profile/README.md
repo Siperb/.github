@@ -14,6 +14,8 @@ You will probably want to make one per extension on your PBX that you want to us
 One of these connections can also be a TISP, like Twillio Elastic SIP Trunking. 
 You are also not limited to the number of devices you can register your client endpoint (UAC) with.
 
+![Siperb](https://github.com/Siperb/.github/blob/main/profile/Recording_Format.webp?raw=true)
+
 ## Mobile App Objectives
 
 The primary concept of this project is to build a WebView that can contain the HTML and JavaScript necessary to perform any of the task necessary for the Browser/WebRTC Phone to work. 
@@ -21,6 +23,9 @@ The primary concept of this project is to build a WebView that can contain the H
 Special attention is applied to features that are typical of a mobile device. For instance, unlike a Desktop computer, a mobile device is used for (many) shorter periods during a typical day. Each time the screen is on, or the device is in use, its making use of the battery. It is of utmost important to keep the battery use to a minimum. Mobile operating systems go to extreme lengths to preserve battery power especially if the app is not in the foreground, or actually being used. You can see this by simply refraining from scrolling, and touching the screen for a few seconds - you should see the screen dim, or turn off. A few seconds after that, all network activity is shut down (except push notification communications).
 
 It is the objective of the mobile apps, to provide all the necessary (natively coded) functionality outside of core calling functionality. 
+
+- [Android Play Store](https://play.google.com/store/apps/details?id=com.siperb.mobile)
+- [Apple App Store](https://apps.apple.com/us/app/siperb/id6553983983)
 
 This will include:
 
