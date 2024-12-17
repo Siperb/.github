@@ -24,8 +24,8 @@ Special attention is applied to features that are typical of a mobile device. Fo
 
 It is the objective of the mobile apps, to provide all the necessary (natively coded) functionality outside of core calling functionality. 
 
-- [Android Play Store](https://play.google.com/store/apps/details?id=com.siperb.mobile)
-- [Apple App Store](https://apps.apple.com/us/app/siperb/id6553983983)
+- [Downlaod Android Softphone in Play Store](https://play.google.com/store/apps/details?id=com.siperb.mobile)
+- [Downlaod Apple Softphone in App Store](https://apps.apple.com/us/app/siperb/id6553983983)
 
 This will include:
 
