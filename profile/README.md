@@ -2,7 +2,7 @@
 
 Siperb Services sits in the cloud between your existing PBX and your users, to provide them with a state-of-the-art SIP-based [Softphone](https://www.siperb.com/kb/article/softphone/) powered by [WebRTC](https://www.siperb.com/kb/article/what-is-webrtc/).
 
-## SIP Proxy for Asterisk, FreeSWITCH or an SIP-based PBX
+## SIP Proxy for Asterisk, FreeSWITCH or any SIP-based PBX
 
 Siperb's [SIP Proxy](https://www.siperb.com/kb/article/webrtc-to-sip-proxy/) then provides the nessesary routing to connect the [Web Application or Mobile Application](https://www.siperb.com/kb/article/siperb-webrtc-client-web-tablet-and-mobile/) to your PBX. Inbound calls are notified via Push for both mobile and web. Outbound calls are routed via connections, to your own PBX like Asteriks, FreeSWITCH or any SIP based IP PBX.
 
