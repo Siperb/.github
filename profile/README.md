@@ -16,6 +16,10 @@ You will probably want to make one per extension on your PBX that you want to us
 One of these connections can also be a TISP, like Twillio Elastic SIP Trunking. 
 You are also not limited to the number of devices you can register your client endpoint (UAC) with.
 
+## Windows Softphone | Mac Softphone | Linux Softphone
+
+While Siperb is a web-based softphone, it is also 100% PWA compatible, so this means that you can install Siperb from the browser and run Siperb as a Desktop Applicaiton on Windows, Mac, and Linux.
+
 ![Siperb](https://github.com/Siperb/.github/blob/main/profile/Recording_Format.webp?raw=true)
 
 ## Mobile App Objectives
