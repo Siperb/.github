@@ -1,4 +1,4 @@
-# SIPERB
+# SIPERB - WebRTC Softphone with SIP Proxy for Asterisk, FreeSWITCH or an SIP-based PBX
 
 Siperb Services sits in the cloud between your existing PBX and your users, to provide them with a state-of-the-art SIP-based [Softphone](https://www.siperb.com/kb/article/softphone/) powered by [WebRTC](https://www.siperb.com/kb/article/what-is-webrtc/).
 
